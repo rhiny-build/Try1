@@ -18,7 +18,7 @@ export class App extends React.Component {
     return (
       <div className="App">
         <Input onClick={this.handleUserChange} />
-        <h1 className="BigText">Hello CodeSandbox</h1>
+        <h1 className="BigText">{this.state.h2Value}</h1>
         <h2>{this.state.h2Value}</h2>
       </div>
     );
